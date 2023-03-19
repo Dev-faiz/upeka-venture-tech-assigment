@@ -1,14 +1,11 @@
 function myMainFunction() {
   const sheetApp = SpreadsheetApp.getActiveSpreadsheet();
   const sheet = sheetApp.getSheetByName("NewsSheet");
-  sheet.getRange('A2:Z100').clear();
-  // setHeaders(sheet);
-  const articles = getArticles(sheet);
+  const articles = getNewsArticles(businessNews);
   setData(articles , sheet);
 }
-
+// update sheet function 
 function setData(articles , sheet){
-
   let  pointer = 2 ; 
   for(let i = 0 ; i < 10; i++ ){
     let SOURCENAME = articles[i].source.name;
@@ -27,6 +24,7 @@ function setData(articles , sheet){
   }
 }
 
+// utility for formatting longText
 function formatDescription(description){
   let desc = "";
   for(let i = 0 ; i < description.length ; i++ ){
