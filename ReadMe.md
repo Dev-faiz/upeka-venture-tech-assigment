@@ -5,7 +5,7 @@
 
    SheetLink : [SheetlInk](https://docs.google.com/spreadsheets/d/1uJvbXYKJa4ZU8Xvcupn1lKgPAr07Oxkg70Dj2z2W_r8/edit?usp=sharing)
    
-   for completing it i have used google app script for login and got the data from [newsApi]() and daily at morning 10.00AM data will get triggred and refreshed the news sheet latest news. 
+   for completing it i have used google app script for login and got the data from [newsApi](https://newsapi.org/) and daily at morning 10.00AM data will get triggred and refreshed the news sheet latest news. 
 
 ## Telegram bot configuration 
 
