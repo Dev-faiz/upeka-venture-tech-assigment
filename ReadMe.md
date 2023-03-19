@@ -22,6 +22,7 @@
         <li>/tech</li>
         <li>/bussiness</li>
         <li>/tesla</li>
+        <li>/wallstreet</li>
     </ul>
 
 
